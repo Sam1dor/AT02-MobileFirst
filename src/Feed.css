@@ -1,0 +1,265 @@
+.postagem__amigos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  background-color: antiquewhite;
+}
+
+.postagem__amigos h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #414149;
+  text-align: center;
+  margin: 12px 0;
+  background-color: whitesmoke;
+  width: 100vw;
+}
+
+.container__card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  width: 80vw;
+  height: 60vh;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.feed__img {
+  width: 300px;
+  height: 200px;
+  margin: 0 20px;
+}
+
+.container__card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #414149;
+  margin: 20px 0 5px 20px;
+}
+
+.curtidas {
+  display: flex;
+  align-items: center;
+}
+
+.curtidas p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0 8px 5px;
+  color: #414149;
+  font-family: cursive;
+}
+
+.feed__img__container {
+  display: flex;
+  justify-content: center;
+}
+
+.curtidas img {
+  width: 25px;
+  height: 25px;
+  margin: 8px 0 8px 20px;
+  text-align: center;
+}
+
+.compartilhamento {
+  display: flex;
+  align-items: center;
+}
+
+.compartilhamento img {
+  width: 25px;
+  height: 25px;
+  margin: 8px 0 8px 20px;
+}
+
+.compartilhamento p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0 8px 5px;
+  color: #414149;
+  font-family: cursive;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0 8px 20px;
+  color: #750012;
+  font-family: cursive;
+}
+
+.texto {
+  display: flex;
+  align-items: center;
+}
+
+.texto img {
+  width: 25px;
+  height: 25px;
+  margin: 4px 0 8px 20px;
+}
+
+.texto p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0 8px 5px;
+  color: #000057;
+  font-family: cursive;
+}
+
+.comentarios {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 20px 8px 20px;
+  color: #414149;
+  font-family: cursive;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #bce8f0;
+  height: 380px;
+}
+
+.comentarios li {
+  margin: 10px 0 0 20px;
+}
+
+@media (min-width: 415px) {
+  .postagem__amigos {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+  }
+
+  .postagem__amigos h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #414149;
+    text-align: center;
+    margin: 12px 0;
+    background-color: whitesmoke;
+    width: 40vw;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .container__card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    margin: 8px 20px;
+    width: 40vw;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: whitesmoke;
+  }
+
+  .feed__img {
+    width: 800px;
+    height: 500px;
+    margin: 0 20px;
+  }
+
+  .container__card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #414149;
+    margin: 20px 0 5px 20px;
+  }
+
+  .curtidas {
+    display: flex;
+    align-items: center;
+  }
+
+  .curtidas p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 8px 5px;
+    color: #414149;
+    font-family: cursive;
+  }
+
+  .feed__img__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .curtidas img {
+    width: 25px;
+    height: 25px;
+    margin: 8px 0 8px 20px;
+    text-align: center;
+  }
+
+  .compartilhamento {
+    display: flex;
+    align-items: center;
+  }
+
+  .compartilhamento img {
+    width: 25px;
+    height: 25px;
+    margin: 8px 0 8px 20px;
+  }
+
+  .compartilhamento p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 8px 5px;
+    color: #414149;
+    font-family: cursive;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 8px 20px;
+    color: #750012;
+    font-family: cursive;
+  }
+
+  .texto {
+    display: flex;
+    align-items: center;
+  }
+
+  .texto img {
+    width: 25px;
+    height: 25px;
+    margin: 4px 0 8px 20px;
+  }
+
+  .texto p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0 8px 5px;
+    color: #000057;
+    font-family: cursive;
+  }
+
+  .comentarios {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 20px 8px 20px;
+    color: #414149;
+    font-family: cursive;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #bce8f0;
+    height: 100px;
+  }
+
+  .comentarios li {
+    margin: 10px 0 0 20px;
+  }
+
+
+}

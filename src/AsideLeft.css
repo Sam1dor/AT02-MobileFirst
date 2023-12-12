@@ -1,0 +1,54 @@
+.relacao__amigos_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.relacao__amigos_titulo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #414149;
+  text-align: center;
+  margin: 10px 0;
+  width: 100vw;
+}
+
+.cardAmigos {
+  display:flex;
+  gap: 10px;
+  width: 80vw;
+}
+
+
+@media (min-width: 415px) {
+  .relacao__amigos_titulo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #414149;
+    text-align: center;
+    margin: 12px 0;
+    background-color: whitesmoke;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .relacao__amigos_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    
+  }
+
+  .cardAmigos {
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    gap: 20px;
+  }
+  
+
+}
